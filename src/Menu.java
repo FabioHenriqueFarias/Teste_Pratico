@@ -103,10 +103,8 @@ public class Menu {
             vendedores.add((Funcionario<Vendedor>) funcionario);
         }
 
-        if (funcionario != null) {
-            funcionarios.add(funcionario);
-            System.out.println("Funcionário cadastrado com sucesso!");
-        }
+        funcionarios.add(funcionario);
+        System.out.println("Funcionário cadastrado com sucesso!");
     }
 
 
